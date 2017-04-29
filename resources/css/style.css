@@ -1,0 +1,175 @@
+*{font-family: helvetica;
+font-size: 22px;
+color:seashell;
+}
+
+header{
+  height:69px;
+  position:fixed;
+  border-bottom: 1px solid seashell;
+  z-index:1;
+  width:100%;
+  background-color: black
+}
+.header{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header img{
+  height:50px;
+  padding-left: 10px;
+}
+
+.header nav{
+  text-align: right;
+  display: block;
+}
+.header nav span{
+  display:inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+  text-align: right;
+
+}
+
+body{background-color: black;
+  margin: 0;
+  opacity: 0.9;
+}
+#content{
+  position: relative;
+  top:69px;
+}
+
+#mission{
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+height:700px;
+width:1200px;
+padding-top:70px;
+margin:0 auto;
+}
+
+.our {
+  width:100%;
+  background-color: black;
+}
+.our h2{
+text-align:center;
+margin:0;
+padding:10px;
+display:block;
+}
+.our h4{
+  text-align:center;
+  margin:0;
+  padding:10px;
+  display:block;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+#store{
+  width:1000px;
+  height:700px;
+  margin:auto;
+  padding: 70px;
+}
+
+#store h2{
+  text-align:center;
+  font-size:33px;
+}
+#store h4{
+  text-align:center;
+  font-size:22px;
+}
+
+.tea{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 530px;
+  width:1000px;
+}
+
+.pic{
+  align-content: space-around;
+  text-align: center;
+  padding: 5px;
+}
+.pic img{
+  width: 300px;
+  height: 200px;
+  margin: 10px
+}
+
+.pic p{
+  margin: 0;
+}
+.locations{
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+height: 500px;
+width:1200px;
+margin:0 auto;
+padding-top:70px;}
+
+.locations h2{
+  text-align:center;
+  margin: 0 auto;
+  font-size:33px;
+  padding: 10px;
+}
+
+.places{
+display:flex;
+margin:auto;
+justify-content: center;
+}
+
+.box{
+  margin:15px 20px;
+  justify-content: center;
+  flex-direction: column;
+text-align: center;
+  width: 300px;
+  height:277px;
+background-color: black;
+opacity: 1;
+}
+
+.box h3{
+padding: 10px;}
+
+.box p{
+padding: 8px;
+}
+
+#contact{
+height:200px;
+text-align:center;
+
+}
+
+#contact h2{
+font-size: 33px;
+padding:10px;
+margin:0;
+}
+
+#contact h5{
+  text-align:center;
+  font-size: 18px;
+}
+
+.copyright h5{
+  text-align: left;
+  font-size: 18px;
+}
